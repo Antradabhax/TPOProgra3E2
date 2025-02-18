@@ -15,7 +15,7 @@ public class PruebaConexion {
                 AuthTokens.basic("neo4j", "pepe1234")
         )) {
             driver.verifyConnectivity();
-            System.out.println("Connection established.");
+            System.out.println("Connection established."    );
         }
     }
 

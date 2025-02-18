@@ -14,5 +14,13 @@ public class PersonEntity {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public Integer getBorn() {
+        return born;
+    }
+
     // Getters omitted
 }

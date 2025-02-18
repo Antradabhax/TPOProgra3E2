@@ -26,5 +26,21 @@ public class MovieEntity {
         this.description = description;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public Set<PersonEntity> getActors() {
+        return actors;
+    }
+
+    public Set<PersonEntity> getDirectors() {
+        return directors;
+    }
+
     // Getters omitted for brevity
 }
